@@ -8,16 +8,13 @@
 </head>
 <body>
   <!-- NAVIGATION -->
-  <nav>
-    <div>
       <nav class="header-nav">
         <div class="container flex space-between">
           <!-- BRANDING -->
-          <div>
-            <div class="flex align-center brand">
+            <div class="brand">
               <a href="#"><img alt="Carved Rock Fitness" src="img/carved-rock-logo.png"> <img class="logo" alt="Carved Rock Fitness" src="img/carved-rock-logo.png"></a>
-            </div><!-- SEARCH -->
-            <div>
+            </div>
+            <!-- SEARCH -->
               <div class="flex flex-one align-center">
                 <div>
                   <form>
@@ -42,24 +39,21 @@
                       </li>
                     </ul>
                   </ul>
-                </div><!-- PROFILE -->
-                <div>
-                  <div>
-                    <div class="flex align-center profile">
-                      <div class="flex flex-column account">
-                        John Doe <a href="#">Log Out</a>
-                      </div>
-                      <div><img alt="John Doe" src="img/profile-pic.jpg"></div>
-                    </div>
+                </div>
+                 <!-- PROFILE -->
+                 <div class="profile flex align-center">
+                  <div class="account flex flex-column">
+                    John Doe <a href="#">Log Out</a>
                   </div>
+                <div class="profile-pic">
+                <div><img alt="John Doe" src="img/profile-pic.jpg"></div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-      </nav><!-- HERO -->
-      <section>
-        <div>
+          </nav>
+      <!-- HERO -->
+      <section class="hero">
+        <div class="banner flex center align-center">
           <div class="container flex flex-column center align-center">
             <h1>Get A Grip</h1>
             <h2>20% Off</h2>
@@ -70,75 +64,58 @@
       <div class="container">
         <!-- SALE BANNER -->
         <section>
-          <div class="flex center align-center"><img alt="Brown Boots" src="img/brown-boots.jpg">
-          <div>
-            <div class="text-light">
-              Couples retreat weekend
+          <div class="banner flex center align-center">
+            <img alt="Brown Boots" src="img/brown-boots.jpg">
+            <div class="banner-text"></div>
+              <div class="text-light">Couples retreat weekend</div>
+              <div class="text-secondary">Save an extra 20%</div>
+              <div class="text-primary">when you buy 2 pairs of boots</div>
             </div>
-            <div class="text-secondary">
-              Save an extra 20%
-            </div>
-            <div class="text-primary">
-              when you buy 2 pairs of boots
-            </div>
-          </div><img alt="Grey Boots" src="img/grey-boots.jpg"></div>
-        </section><!-- CATEGORIES -->
-        <section>
-          <div>
-            <a href="#"><img alt="Splash Chic" src="img/category-1.jpg">
-            <div>
-              <h3>Splash Chic</h3>
-              <div>
-                Women's Wet Gear
-              </div>
-            </div></a>
+            <img alt="Grey Boots" src="img/grey-boots.jpg">
           </div>
-          <div>
-            <a href="#"><img alt="Kid Klimbers" src="img/category-2.jpg">
-            <div>
-              <h3>Kid Klimbers</h3>
-              <div>
-                Children's Gear
-              </div>
-            </div></a>
+        </section>
+        <!-- CATEGORIES -->
+         <section class="category">
+            <a href="#">
+              <img alt="Splash Chic" src="img/category-1.jpg" />
+              <div class="category-text">
+              </a>
           </div>
-          <div>
-            <a href="#"><img alt="Pack It In" src="img/category-3.jpg">
-            <div>
-              <h3>Pack It In</h3>
-              <div>
-                Camping Gear
+          <div class="category">
+            <a href="#">
+              <img alt="Kid Klimbers" src="img/category-2.jpg" />
+              <div class="category-text">
               </div>
-            </div></a>
+            </a>
           </div>
-          <div>
-            <a href="#"><img alt="Nature's AC" src="img/category-4.jpg">
-            <div>
-              <h3>Nature's AC</h3>
-              <div>
-                Men's Shorts
+          <div class="category">
+            <a href="#">
+              <img alt="Pack It In" src="img/category-3.jpg" />
+              <div class="category-text">
               </div>
-            </div></a>
+            </a>
           </div>
-        </section><!-- FULL BANNER -->
-        <section>
-          <div class="flex flex-column center align-center">
+          <div class="category">
+            <a href="#">
+              <img alt="Nature's AC" src="img/category-4.jpg" />
+              <div class="category-text">
+              </div>
+            </section>
+        <!-- FULL BANNER -->
+        <section class="full-banner">
+          <div class="full-banner-image"></div>
+          <div class="full-banner-sidebar flex flex-column align-center center">
             <h4>Trail Review</h4>
-            <div>
-              Asphalt
-            </div>
-            <div>
-              National Park
+            <div>Asphalt</div>
+            <div>National Park</div>
             </div><a button="" class="btn btn-default" btn-default="" href="#">See Review</a>
           </div>
         </section>
       </div><!-- FOOTER -->
       <footer>
-        <section class="container space-between">
-          <div>
-            <div class="text-primary">
-              Customer Support
-            </div>
+        <section class="lists container space-between">
+          <div class="links">
+            <div class="link-header text-primary">Customer Support</div>
             <ul>
               <li>
                 <a href="#">Contact Us</a>
@@ -161,8 +138,8 @@
             </ul>
           </div>
           <div>
-            <div class="text-primary">
-              Company Info
+            <div class="links">
+              <div class="link-header text-primary">Company Info</div>
             </div>
             <ul>
               <li>
@@ -188,10 +165,8 @@
               </li>
             </ul>
           </div>
-          <div>
-            <div class="text-primary">
-              Privacy & Terms
-            </div>
+          <div class="links">
+            <div class="link-header text-primary">Privacy &amp; Terms</div>
             <ul>
               <li>
                 <a href="#">Privacy & Security</a>
